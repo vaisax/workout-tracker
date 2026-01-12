@@ -175,9 +175,9 @@ const BLOCK_2_WEEKS = {
       1: {
         name: "Squat Heavy + Bench Volume",
         exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 145, rpe: "7.5-8", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 125, rpe: "7", lift: "squat" },
-          { name: "Paused Bench", sets: 4, reps: 6, weight: 72.5, rpe: "7", lift: "bench" },
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 150, rpe: "7.5-8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 130, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 6, weight: 75, rpe: "7", lift: "bench" },
           { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
           { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
           { name: "Weighted Plank", sets: 3, reps: "30-45s" }
@@ -186,9 +186,9 @@ const BLOCK_2_WEEKS = {
       2: {
         name: "Bench Heavy + Upper / Arms",
         exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 82.5, rpe: "7.5-8", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 75, rpe: "7", lift: "bench" },
-          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 67.5, rpe: "7", lift: "bench" },
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 85, rpe: "7.5-8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 70, rpe: "7", lift: "bench" },
           { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
           { name: "EZ-Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
           { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
@@ -198,9 +198,9 @@ const BLOCK_2_WEEKS = {
       3: {
         name: "Deadlift Heavy + Squat Light",
         exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 180, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 155, rpe: "7", lift: "deadlift" },
-          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 115, rpe: "6.5", lift: "squat" },
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 190, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 162.5, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 120, rpe: "6.5", lift: "squat" },
           { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
           { name: "Back Extension", sets: 3, reps: 12 },
           { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
@@ -209,18 +209,18 @@ const BLOCK_2_WEEKS = {
       4: {
         name: "Bench Volume + Squat Accessory",
         exercises: [
-          { name: "Paused Bench", sets: 5, reps: 4, weight: 77.5, rpe: "7", lift: "bench" },
-          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 120, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 5, reps: 4, weight: 80, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 122.5, rpe: "7", lift: "squat" },
           { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
           { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
-          { name: "JM Press (light)", sets: 3, reps: 6, weight: 50, rpe: "6-7", lift: "bench" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 52.5, rpe: "6-7", lift: "bench" },
           { name: "Hammer Curl", sets: 3, reps: "10-12" }
         ]
       },
       5: {
         name: "Hypertrophy / Weak Points / Core",
         exercises: [
-          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 125, rpe: "7", lift: "squat" },
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 130, rpe: "7", lift: "squat" },
           { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
           { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
           { name: "Rear Delts", sets: 3, reps: "12-15" },
@@ -236,9 +236,9 @@ const BLOCK_2_WEEKS = {
       1: {
         name: "Squat Heavy + Bench Volume",
         exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 147.5, rpe: "7.5-8", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 127.5, rpe: "7", lift: "squat" },
-          { name: "Paused Bench", sets: 4, reps: 6, weight: 75, rpe: "7", lift: "bench" },
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 152.5, rpe: "7.5-8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 132.5, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
           { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
           { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
           { name: "Weighted Plank", sets: 3, reps: "30-45s" }
@@ -247,9 +247,9 @@ const BLOCK_2_WEEKS = {
       2: {
         name: "Bench Heavy + Upper / Arms",
         exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 85, rpe: "7.5-8", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
-          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 67.5, rpe: "7", lift: "bench" },
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 87.5, rpe: "7.5-8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 80, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 70, rpe: "7", lift: "bench" },
           { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
           { name: "EZ-Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
           { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
@@ -259,9 +259,9 @@ const BLOCK_2_WEEKS = {
       3: {
         name: "Deadlift Heavy + Squat Light",
         exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 182.5, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 157.5, rpe: "7", lift: "deadlift" },
-          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 115, rpe: "6.5", lift: "squat" },
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 192.5, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 165, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 120, rpe: "6.5", lift: "squat" },
           { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
           { name: "Back Extension", sets: 3, reps: 12 },
           { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
@@ -270,18 +270,18 @@ const BLOCK_2_WEEKS = {
       4: {
         name: "Bench Volume + Squat Accessory",
         exercises: [
-          { name: "Paused Bench", sets: 5, reps: 4, weight: 80, rpe: "7", lift: "bench" },
-          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 120, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 5, reps: 4, weight: 82.5, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 122.5, rpe: "7", lift: "squat" },
           { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
           { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
-          { name: "JM Press (light)", sets: 3, reps: 6, weight: 50, rpe: "6-7", lift: "bench" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 52.5, rpe: "6-7", lift: "bench" },
           { name: "Hammer Curl", sets: 3, reps: "10-12" }
         ]
       },
       5: {
         name: "Hypertrophy / Weak Points / Core",
         exercises: [
-          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 125, rpe: "7", lift: "squat" },
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 130, rpe: "7", lift: "squat" },
           { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
           { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
           { name: "Rear Delts", sets: 3, reps: "12-15" },
@@ -297,9 +297,9 @@ const BLOCK_2_WEEKS = {
       1: {
         name: "Squat Heavy + Bench Volume",
         exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 150, rpe: "7.5-8", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 130, rpe: "7", lift: "squat" },
-          { name: "Paused Bench", sets: 4, reps: 6, weight: 75, rpe: "7", lift: "bench" },
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 155, rpe: "7.5-8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 135, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
           { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
           { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
           { name: "Weighted Plank", sets: 3, reps: "30-45s" }
@@ -308,9 +308,9 @@ const BLOCK_2_WEEKS = {
       2: {
         name: "Bench Heavy + Upper / Arms",
         exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 85, rpe: "7.5-8", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
-          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 67.5, rpe: "7", lift: "bench" },
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 87.5, rpe: "7.5-8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 80, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 70, rpe: "7", lift: "bench" },
           { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
           { name: "EZ-Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
           { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
@@ -320,9 +320,9 @@ const BLOCK_2_WEEKS = {
       3: {
         name: "Deadlift Heavy + Squat Light",
         exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 185, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 160, rpe: "7", lift: "deadlift" },
-          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 115, rpe: "6.5", lift: "squat" },
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 195, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 167.5, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 120, rpe: "6.5", lift: "squat" },
           { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
           { name: "Back Extension", sets: 3, reps: 12 },
           { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
@@ -331,18 +331,18 @@ const BLOCK_2_WEEKS = {
       4: {
         name: "Bench Volume + Squat Accessory",
         exercises: [
-          { name: "Paused Bench", sets: 5, reps: 4, weight: 80, rpe: "7", lift: "bench" },
-          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 120, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 5, reps: 4, weight: 82.5, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 122.5, rpe: "7", lift: "squat" },
           { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
           { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
-          { name: "JM Press (light)", sets: 3, reps: 6, weight: 50, rpe: "6-7", lift: "bench" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 52.5, rpe: "6-7", lift: "bench" },
           { name: "Hammer Curl", sets: 3, reps: "10-12" }
         ]
       },
       5: {
         name: "Hypertrophy / Weak Points / Core",
         exercises: [
-          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 125, rpe: "7", lift: "squat" },
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 130, rpe: "7", lift: "squat" },
           { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
           { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
           { name: "Rear Delts", sets: 3, reps: "12-15" },
@@ -358,9 +358,9 @@ const BLOCK_2_WEEKS = {
       1: {
         name: "Squat Heavy + Bench Volume",
         exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 152.5, rpe: "7.5-8", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 130, rpe: "7", lift: "squat" },
-          { name: "Paused Bench", sets: 4, reps: 6, weight: 75, rpe: "7", lift: "bench" },
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 157.5, rpe: "7.5-8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 5, weight: 135, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
           { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
           { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
           { name: "Weighted Plank", sets: 3, reps: "30-45s" }
@@ -369,9 +369,9 @@ const BLOCK_2_WEEKS = {
       2: {
         name: "Bench Heavy + Upper / Arms",
         exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 85, rpe: "7.5-8", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 77.5, rpe: "7", lift: "bench" },
-          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 67.5, rpe: "7", lift: "bench" },
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 87.5, rpe: "7.5-8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 6, weight: 80, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 8, weight: 70, rpe: "7", lift: "bench" },
           { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
           { name: "EZ-Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
           { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
@@ -381,9 +381,9 @@ const BLOCK_2_WEEKS = {
       3: {
         name: "Deadlift Heavy + Squat Light",
         exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 185, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 160, rpe: "7", lift: "deadlift" },
-          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 115, rpe: "6.5", lift: "squat" },
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 195, rpe: "7.5-8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 167.5, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 6, weight: 120, rpe: "6.5", lift: "squat" },
           { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
           { name: "Back Extension", sets: 3, reps: 12 },
           { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
@@ -392,23 +392,313 @@ const BLOCK_2_WEEKS = {
       4: {
         name: "Bench Volume + Squat Accessory",
         exercises: [
-          { name: "Paused Bench", sets: 5, reps: 4, weight: 80, rpe: "7", lift: "bench" },
-          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 120, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 5, reps: 4, weight: 82.5, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (lighter)", sets: 4, reps: 8, weight: 122.5, rpe: "7", lift: "squat" },
           { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
           { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
-          { name: "JM Press (light)", sets: 3, reps: 6, weight: 50, rpe: "6-7", lift: "bench" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 52.5, rpe: "6-7", lift: "bench" },
           { name: "Hammer Curl", sets: 3, reps: "10-12" }
         ]
       },
       5: {
         name: "Hypertrophy / Weak Points / Core",
         exercises: [
-          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 125, rpe: "7", lift: "squat" },
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 130, rpe: "7", lift: "squat" },
           { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
           { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
           { name: "Rear Delts", sets: 3, reps: "12-15" },
           { name: "Cable Crunch (slow)", sets: 3, reps: "12-15" },
           { name: "Plank / Weighted Plank", sets: "2-3", reps: "45-60s" }
+        ]
+      }
+    }
+  }
+};
+
+// BLOCK 3A DATA - Pre-Peak / Specialization
+const BLOCK_3A_WEEKS = {
+  1: {
+    name: "Pre-Peak Week 1",
+    days: {
+      1: {
+        name: "Squat Focus",
+        exercises: [
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: 3, weight: 153, rpe: "8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 4, weight: 137.5, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 5, weight: 78.75, rpe: "7", lift: "bench" },
+          { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
+          { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
+          { name: "Weighted Plank", sets: 3, reps: "30-45s" }
+        ]
+      },
+      2: {
+        name: "Bench Focus",
+        exercises: [
+          { name: "Competition Bench (Top Set)", sets: 1, reps: 3, weight: 89.25, rpe: "8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 5, weight: 81.375, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 6, weight: 73.5, rpe: "7", lift: "bench" },
+          { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
+          { name: "EZ Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
+          { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
+          { name: "Lateral Raises", sets: 3, reps: "15-20" }
+        ]
+      },
+      3: {
+        name: "Deadlift Focus",
+        exercises: [
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: 3, weight: 195.5, rpe: "8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 171.25, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 5, weight: 126, rpe: "6-6.5", lift: "squat" },
+          { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
+          { name: "Back Extension", sets: 3, reps: 12 },
+          { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
+        ]
+      },
+      4: {
+        name: "Bench Volume + Squat Assistance",
+        exercises: [
+          { name: "Paused Bench", sets: 4, reps: 4, weight: 84, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (moderate)", sets: 3, reps: 6, weight: 130.5, rpe: "7", lift: "squat" },
+          { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
+          { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 54.25, rpe: "6-7", lift: "bench" },
+          { name: "Hammer Curl", sets: 3, reps: "10-12" }
+        ]
+      },
+      5: {
+        name: "Hypertrophy / Core / Weak Points",
+        exercises: [
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 135.9, rpe: "7", lift: "squat" },
+          { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
+          { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
+          { name: "Rear Delts", sets: 3, reps: "12-15" },
+          { name: "Cable Crunch", sets: 3, reps: "12-15" },
+          { name: "Plank / Weighted Plank", sets: "2-3", reps: "45-60s" }
+        ]
+      }
+    }
+  },
+  2: {
+    name: "Pre-Peak Week 2",
+    days: {
+      1: {
+        name: "Squat Focus",
+        exercises: [
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: 3, weight: 155.7, rpe: "8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 4, weight: 137.5, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 5, weight: 78.75, rpe: "7", lift: "bench" },
+          { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
+          { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
+          { name: "Weighted Plank", sets: 3, reps: "30-45s" }
+        ]
+      },
+      2: {
+        name: "Bench Focus",
+        exercises: [
+          { name: "Competition Bench (Top Set)", sets: 1, reps: 3, weight: 89.25, rpe: "8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 5, weight: 81.375, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 6, weight: 73.5, rpe: "7", lift: "bench" },
+          { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
+          { name: "EZ Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
+          { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
+          { name: "Lateral Raises", sets: 3, reps: "15-20" }
+        ]
+      },
+      3: {
+        name: "Deadlift Focus",
+        exercises: [
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: 3, weight: 198.35, rpe: "8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 171.25, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 5, weight: 126, rpe: "6-6.5", lift: "squat" },
+          { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
+          { name: "Back Extension", sets: 3, reps: 12 },
+          { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
+        ]
+      },
+      4: {
+        name: "Bench Volume + Squat Assistance",
+        exercises: [
+          { name: "Paused Bench", sets: 4, reps: 4, weight: 84, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (moderate)", sets: 3, reps: 6, weight: 130.5, rpe: "7", lift: "squat" },
+          { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
+          { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 54.25, rpe: "6-7", lift: "bench" },
+          { name: "Hammer Curl", sets: 3, reps: "10-12" }
+        ]
+      },
+      5: {
+        name: "Hypertrophy / Core / Weak Points",
+        exercises: [
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 135.9, rpe: "7", lift: "squat" },
+          { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
+          { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
+          { name: "Rear Delts", sets: 3, reps: "12-15" },
+          { name: "Cable Crunch", sets: 3, reps: "12-15" },
+          { name: "Plank / Weighted Plank", sets: "2-3", reps: "45-60s" }
+        ]
+      }
+    }
+  },
+  3: {
+    name: "Pre-Peak Week 3",
+    days: {
+      1: {
+        name: "Squat Focus",
+        exercises: [
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: 3, weight: 158.4, rpe: "8", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 3, reps: 4, weight: 137.5, rpe: "7", lift: "squat" },
+          { name: "Paused Bench", sets: 4, reps: 5, weight: 78.75, rpe: "7", lift: "bench" },
+          { name: "DB Romanian Deadlift", sets: 3, reps: 10, weight: 0, rpe: "7" },
+          { name: "Hanging Leg Raise", sets: 4, reps: "12-15" },
+          { name: "Weighted Plank", sets: 3, reps: "30-45s" }
+        ]
+      },
+      2: {
+        name: "Bench Focus",
+        exercises: [
+          { name: "Competition Bench (Top Set)", sets: 1, reps: 3, weight: 92.4, rpe: "8", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 3, reps: 5, weight: 81.375, rpe: "7", lift: "bench" },
+          { name: "Close-Grip Bench", sets: 4, reps: 6, weight: 73.5, rpe: "7", lift: "bench" },
+          { name: "Chest-Supported Row", sets: 4, reps: 10, weight: 0 },
+          { name: "EZ Bar Curl", sets: 3, reps: "10-12", weight: 0, rpe: "7" },
+          { name: "Overhead Triceps Extension", sets: 3, reps: "12-15", weight: 0, rpe: "7" },
+          { name: "Lateral Raises", sets: 3, reps: "15-20" }
+        ]
+      },
+      3: {
+        name: "Deadlift Focus",
+        exercises: [
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: 3, weight: 201.2, rpe: "8", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 3, reps: 5, weight: 171.25, rpe: "7", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 3, reps: 5, weight: 126, rpe: "6-6.5", lift: "squat" },
+          { name: "Hamstring Curl", sets: 4, reps: 12, weight: 0 },
+          { name: "Back Extension", sets: 3, reps: 12 },
+          { name: "Ab Wheel / Dead Bug", sets: 3, reps: "10-12" }
+        ]
+      },
+      4: {
+        name: "Bench Volume + Squat Assistance",
+        exercises: [
+          { name: "Paused Bench", sets: 4, reps: 4, weight: 84, rpe: "7", lift: "bench" },
+          { name: "High-Bar Squat (moderate)", sets: 3, reps: 6, weight: 130.5, rpe: "7", lift: "squat" },
+          { name: "Pulldown / Cable Row", sets: 4, reps: "10-12", weight: 0 },
+          { name: "Triceps Pushdowns", sets: 3, reps: "12-15" },
+          { name: "JM Press (light)", sets: 3, reps: 6, weight: 54.25, rpe: "6-7", lift: "bench" },
+          { name: "Hammer Curl", sets: 3, reps: "10-12" }
+        ]
+      },
+      5: {
+        name: "Hypertrophy / Core / Weak Points",
+        exercises: [
+          { name: "Safety Bar / Belt Squat", sets: 4, reps: 6, weight: 135.9, rpe: "7", lift: "squat" },
+          { name: "DB Incline Bench", sets: 4, reps: 10, weight: 0, lift: "bench" },
+          { name: "Single-Leg RDL", sets: 3, reps: "10/leg", weight: 0 },
+          { name: "Rear Delts", sets: 3, reps: "12-15" },
+          { name: "Cable Crunch", sets: 3, reps: "12-15" },
+          { name: "Plank / Weighted Plank", sets: "2-3", reps: "45-60s" }
+        ]
+      }
+    }
+  }
+};
+
+// BLOCK 3B DATA - Peak / PR Taper
+const BLOCK_3B_WEEKS = {
+  1: {
+    name: "Peak Week 1 - Heavy Doubles/Triples",
+    days: {
+      1: {
+        name: "Squat Heavy",
+        exercises: [
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "2-3", weight: 163.8, rpe: "8.5", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: 2, reps: "2-3", weight: 145.8, rpe: "7.5", lift: "squat" },
+          { name: "Paused Bench (light)", sets: 3, reps: 3, weight: 84, rpe: "6", lift: "bench" }
+        ]
+      },
+      2: {
+        name: "Bench Heavy",
+        exercises: [
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "2-3", weight: 89.25, rpe: "8.5", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: 2, reps: "3-4", weight: 84, rpe: "7.5", lift: "bench" },
+          { name: "High-Bar Squat (light)", sets: 3, reps: 3, weight: 119.7, rpe: "6", lift: "squat" }
+        ]
+      },
+      3: {
+        name: "Deadlift Heavy",
+        exercises: [
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "2-3", weight: 201.2, rpe: "8.5", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: 2, reps: 3, weight: 176.75, rpe: "7.5", lift: "deadlift" },
+          { name: "Tempo Squat (3s down)", sets: 2, reps: 4, weight: 114.3, rpe: "6", lift: "squat" }
+        ]
+      },
+      4: {
+        name: "Optional: Light Arms / Core",
+        exercises: [
+          { name: "EZ-Bar Curl", sets: 2, reps: "10-12" },
+          { name: "Triceps Extension", sets: 2, reps: "10-12" },
+          { name: "Core Work (Plank, Ab Wheel)", sets: 2, reps: "10-15" }
+        ]
+      }
+    }
+  },
+  2: {
+    name: "Peak Week 2 - Heavy Singles/Doubles",
+    days: {
+      1: {
+        name: "Squat Heavy Singles",
+        exercises: [
+          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "1-2", weight: 171, rpe: "9-9.5", lift: "squat", isTopSet: true },
+          { name: "Low-Bar Squat (Back-Off)", sets: "1-2", reps: "1-2", weight: 145.8, rpe: "7.5", lift: "squat" },
+          { name: "Light Mobility / Stretching", sets: 1, reps: "10-15 min" }
+        ]
+      },
+      2: {
+        name: "Bench Heavy Singles",
+        exercises: [
+          { name: "Competition Bench (Top Set)", sets: 1, reps: "1-2", weight: 94.5, rpe: "9-9.5", lift: "bench", isTopSet: true },
+          { name: "Competition Bench (Back-Off)", sets: "1-2", reps: "1-2", weight: 86.625, rpe: "7.5", lift: "bench" },
+          { name: "Light Upper Back Pump", sets: 2, reps: "10-12", weight: 0 }
+        ]
+      },
+      3: {
+        name: "Deadlift Heavy Singles",
+        exercises: [
+          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "1-2", weight: 212.05, rpe: "9-9.5", lift: "deadlift", isTopSet: true },
+          { name: "Sumo Deadlift (Back-Off)", sets: "1-2", reps: "1-2", weight: 179.4, rpe: "7.5", lift: "deadlift" },
+          { name: "Light Core Work", sets: 2, reps: "10-12" }
+        ]
+      },
+      4: {
+        name: "Optional: Recovery / Mobility",
+        exercises: [
+          { name: "Light Pump Work (optional)", sets: 2, reps: "10-12", weight: 0 },
+          { name: "Mobility / Stretching", sets: 1, reps: "15-20 min" }
+        ]
+      }
+    }
+  },
+  3: {
+    name: "PR WEEK 🏆",
+    days: {
+      1: {
+        name: "Squat PR Attempt",
+        exercises: [
+          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
+          { name: "Low-Bar Squat PR", sets: 1, reps: 1, weight: 185, rpe: "9-10", lift: "squat", isTopSet: true, isPR: true }
+        ]
+      },
+      2: {
+        name: "Bench PR Attempt",
+        exercises: [
+          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
+          { name: "Competition Bench PR", sets: 1, reps: 1, weight: 110, rpe: "9-10", lift: "bench", isTopSet: true, isPR: true }
+        ]
+      },
+      3: {
+        name: "Deadlift PR Attempt",
+        exercises: [
+          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
+          { name: "Sumo Deadlift PR", sets: 1, reps: 1, weight: 240, rpe: "9-10", lift: "deadlift", isTopSet: true, isPR: true }
         ]
       }
     }
@@ -423,119 +713,20 @@ const BLOCKS = {
   },
   2: {
     blockName: "Block 2: Intensification",
-    trainingMaxes: { squat: 170, bench: 97.5, deadlift: 215 },
+    trainingMaxes: { squat: 175, bench: 100, deadlift: 220 },
     weeks: BLOCK_2_WEEKS
   },
   3: {
-    blockName: "Block 3: Realization / Peak",
-    trainingMaxes: { squat: 160, bench: 87.5, deadlift: 190 },
-    weeks: {}
+    blockName: "Block 3A: Pre-Peak / Specialization",
+    trainingMaxes: { squat: 180, bench: 105, deadlift: 230 },
+    weeks: BLOCK_3A_WEEKS
+  },
+  4: {
+    blockName: "Block 3B: Peak / PR Taper",
+    trainingMaxes: { squat: 180, bench: 105, deadlift: 230 },
+    weeks: BLOCK_3B_WEEKS
   }
 };
-
-// BLOCK 3 DATA - Realization / Peak
-const BLOCK_3_WEEKS = {
-  1: {
-    name: "Peak Week 1 - Heavy Singles",
-    days: {
-      1: {
-        name: "Squat Heavy",
-        exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "3-5", weight: 150, rpe: "8", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 2, reps: 3, weight: 132.5, rpe: "7", lift: "squat" },
-          { name: "Paused Bench (light)", sets: 3, reps: 4, weight: 75, rpe: "6", lift: "bench" }
-        ]
-      },
-      2: {
-        name: "Bench Heavy",
-        exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "3-4", weight: 82.5, rpe: "8", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 2, reps: 5, weight: 75, rpe: "7", lift: "bench" },
-          { name: "High-Bar Squat (light)", sets: 3, reps: 5, weight: 110, rpe: "6", lift: "squat" }
-        ]
-      },
-      3: {
-        name: "Deadlift Heavy",
-        exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "3-4", weight: 180, rpe: "8", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 2, reps: 5, weight: 157.5, rpe: "7", lift: "deadlift" },
-          { name: "Tempo Squat (3s down)", sets: 2, reps: 5, weight: 107.5, rpe: "6", lift: "squat" }
-        ]
-      },
-      4: {
-        name: "Optional: Light Upper/Core",
-        exercises: [
-          { name: "Light Arms", sets: 2, reps: "10-12", weight: 0 },
-          { name: "Core Work", sets: 2, reps: "10-15", weight: 0 }
-        ]
-      }
-    }
-  },
-  2: {
-    name: "Peak Week 2 - Heavier Singles",
-    days: {
-      1: {
-        name: "Squat Heavy",
-        exercises: [
-          { name: "Low-Bar Squat (Top Set)", sets: 1, reps: "2-3", weight: 155, rpe: "8.5", lift: "squat", isTopSet: true },
-          { name: "Low-Bar Squat (Back-Off)", sets: 2, reps: "2-3", weight: 137.5, rpe: "7.5", lift: "squat" },
-          { name: "Paused Bench", sets: 3, reps: 3, weight: 78.75, rpe: "7", lift: "bench" }
-        ]
-      },
-      2: {
-        name: "Bench Heavy",
-        exercises: [
-          { name: "Competition Bench (Top Set)", sets: 1, reps: "2-3", weight: 85, rpe: "8.5", lift: "bench", isTopSet: true },
-          { name: "Competition Bench (Back-Off)", sets: 2, reps: "3-4", weight: 78.75, rpe: "7.5", lift: "bench" },
-          { name: "High-Bar Squat", sets: 3, reps: 3, weight: 115, rpe: "7", lift: "squat" }
-        ]
-      },
-      3: {
-        name: "Deadlift Heavy",
-        exercises: [
-          { name: "Sumo Deadlift (Top Set)", sets: 1, reps: "2-3", weight: 185, rpe: "8.5", lift: "deadlift", isTopSet: true },
-          { name: "Sumo Deadlift (Back-Off)", sets: 2, reps: 3, weight: 162.5, rpe: "7.5", lift: "deadlift" },
-          { name: "Tempo Squat", sets: 2, reps: 4, weight: 105, rpe: "6", lift: "squat" }
-        ]
-      },
-      4: {
-        name: "Optional: Light Upper/Core",
-        exercises: [
-          { name: "Light Arms", sets: 2, reps: "10-12", weight: 0 },
-          { name: "Core Work", sets: 2, reps: "10-15", weight: 0 }
-        ]
-      }
-    }
-  },
-  3: {
-    name: "Peak Week 3 - PR WEEK 🏆",
-    days: {
-      1: {
-        name: "Squat PR Attempt",
-        exercises: [
-          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
-          { name: "Low-Bar Squat PR", sets: 1, reps: 1, weight: 160, rpe: "9", lift: "squat", isTopSet: true, isPR: true }
-        ]
-      },
-      2: {
-        name: "Bench PR Attempt",
-        exercises: [
-          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
-          { name: "Competition Bench PR", sets: 1, reps: 1, weight: 90, rpe: "9", lift: "bench", isTopSet: true, isPR: true }
-        ]
-      },
-      3: {
-        name: "Deadlift PR Attempt",
-        exercises: [
-          { name: "Warm-up Sets", sets: "3-5", reps: "1-5", weight: 0, rpe: "4-6" },
-          { name: "Sumo Deadlift PR", sets: 1, reps: 1, weight: 195, rpe: "9", lift: "deadlift", isTopSet: true, isPR: true }
-        ]
-      }
-    }
-  }
-};
-
-BLOCKS[3].weeks = BLOCK_3_WEEKS;
 
 const RPE_TO_PERCENTAGE = {
   10: 1.0, 9.5: 0.978, 9: 0.955, 8.5: 0.939, 8: 0.922,
@@ -1019,7 +1210,7 @@ const WorkoutTracker = () => {
             <div className="flex items-center justify-between mb-3">
               <div>
                 <h1 className="text-xl font-bold">{currentWorkout.name}</h1>
-                <p className="text-gray-400 text-sm">Block {currentBlock} • Week {currentWeek} • Day {currentDay}</p>
+                <p className="text-gray-400 text-sm">Block {currentBlock <= 2 ? currentBlock : currentBlock === 3 ? '3A' : '3B'} • Week {currentWeek} • Day {currentDay}</p>
               </div>
               <div className="text-right">
                 <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
@@ -1169,7 +1360,7 @@ const WorkoutTracker = () => {
           <div className="flex items-center gap-2 mb-2">
             <Dumbbell className="w-7 h-7 text-emerald-400" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-              Block {currentBlock}
+              Block {currentBlock <= 2 ? currentBlock : currentBlock === 3 ? '3A' : '3B'}
             </h1>
           </div>
           <p className="text-gray-400 text-sm">{blockName.split(': ')[1]}</p>
@@ -1181,7 +1372,7 @@ const WorkoutTracker = () => {
             <h2 className="text-lg font-semibold">Block</h2>
           </div>
           <div className="grid grid-cols-2 gap-3">
-            {[1, 2, 3].map(block => (
+            {[1, 2, 3, 4].map(block => (
               <button
                 key={block}
                 onClick={() => {
@@ -1194,9 +1385,9 @@ const WorkoutTracker = () => {
                     : 'bg-gray-800 hover:bg-gray-700 active:scale-95'
                 }`}
               >
-                <div className="text-lg">Block {block}</div>
+                <div className="text-lg">Block {block <= 2 ? block : block === 3 ? '3A' : '3B'}</div>
                 <div className="text-xs opacity-80 mt-1">
-                  {block === 1 ? 'Accumulation' : block === 2 ? 'Intensification' : 'Peak'}
+                  {block === 1 ? 'Accumulation' : block === 2 ? 'Intensification' : block === 3 ? 'Pre-Peak' : 'Peak'}
                 </div>
               </button>
             ))}
