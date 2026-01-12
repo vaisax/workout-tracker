@@ -749,6 +749,41 @@ const WorkoutTracker = () => {
   const [showSuccess, setShowSuccess] = useState(false);
   const [view, setView] = useState('program');
   const [editingSet, setEditingSet] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load data from storage on mount
+  React.useEffect(() => {
+    const loadData = () => {
+      try {
+        const completedData = localStorage.getItem('workout-completed-sets');
+        const setsData = localStorage.getItem('workout-set-data');
+        
+        if (completedData) {
+          setCompletedSets(JSON.parse(completedData));
+        }
+        if (setsData) {
+          setSetData(JSON.parse(setsData));
+        }
+      } catch (error) {
+        console.log('No saved data found, starting fresh');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadData();
+  }, []);
+
+  // Save data to storage whenever it changes
+  React.useEffect(() => {
+    if (!isLoading) {
+      try {
+        localStorage.setItem('workout-completed-sets', JSON.stringify(completedSets));
+        localStorage.setItem('workout-set-data', JSON.stringify(setData));
+      } catch (error) {
+        console.error('Failed to save data:', error);
+      }
+    }
+  }, [completedSets, setData, isLoading]);
 
   const workoutProgram = BLOCKS[currentBlock].weeks;
   const trainingMaxes = BLOCKS[currentBlock].trainingMaxes;
@@ -933,8 +968,52 @@ const WorkoutTracker = () => {
     }, 2000);
   };
 
+  const resetAllData = () => {
+    if (window.confirm('⚠️ This will delete ALL your workout data. Are you sure?')) {
+      try {
+        localStorage.removeItem('workout-completed-sets');
+        localStorage.removeItem('workout-set-data');
+        setCompletedSets({});
+        setSetData({});
+        alert('✅ All data has been reset!');
+      } catch (error) {
+        console.error('Failed to reset data:', error);
+        alert('❌ Failed to reset data');
+      }
+    }
+  };
+
+  const exportData = () => {
+    const exportObj = {
+      completedSets,
+      setData,
+      exportDate: new Date().toISOString(),
+      version: '1.0'
+    };
+    const dataStr = JSON.stringify(exportObj, null, 2);
+    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(dataBlob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `workout-data-${new Date().toISOString().split('T')[0]}.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
   const { volumeByWeek, bigThreeProgress } = generateChartData();
   const e1rmEstimates = getEstimated1RMs();
+
+  // Show loading state
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white flex items-center justify-center">
+        <div className="text-center">
+          <Dumbbell className="w-16 h-16 text-emerald-400 animate-pulse mx-auto mb-4" />
+          <p className="text-xl font-semibold">Loading your workout data...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (view === 'stats') {
     return (
@@ -1104,6 +1183,20 @@ const WorkoutTracker = () => {
               <div className="text-xs text-gray-400 mt-1">Total Volume (kg)</div>
             </div>
           </div>
+
+          <button
+            onClick={resetAllData}
+            className="w-full mt-4 py-3 bg-red-900/20 border border-red-500/30 text-red-400 rounded-xl font-medium hover:bg-red-900/30 transition-colors"
+          >
+            Reset All Data
+          </button>
+
+          <button
+            onClick={exportData}
+            className="w-full mt-2 py-3 bg-blue-900/20 border border-blue-500/30 text-blue-400 rounded-xl font-medium hover:bg-blue-900/30 transition-colors"
+          >
+            Export Data (Backup)
+          </button>
         </div>
 
         <div className="fixed bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-800 px-4 py-3 safe-area-bottom">
